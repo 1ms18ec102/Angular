@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-book',
+  templateUrl: './book.component.html',
+  styleUrls: ['./book.component.css']
+})
+export class BookComponent {
+
+click()
+{
+  alert("Successfully Added");
+  console.log("fasdf");
+}
+}
